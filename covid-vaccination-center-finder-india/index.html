@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.6.22/dist/css/uikit.min.css" />
+
+    <!-- UIkit JS -->
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.22/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.22/dist/js/uikit-icons.min.js"></script>
+
+
+
+
+
+
+    <title>COVID-19 Vaccine Center Finder</title>
+</head>
+
+<body>
+
+    <h1>Covid Vaccination Center Finder</h1>
+
+
+
+   
+        <input type="text" id="pincode" placeholder="EXAMPLE - 110001" class="uk-form"></input>
+       
+
+
+    
+        <input type="text" id="date" placeholder="EXAMPLE - 29-05-2021" class="uk-form"></input>
+  
+
+
+    <button onclick="get()" class="uk-button uk-button-default">SUBMIT</button>
+
+
+
+
+    <table class="uk-table">
+        <tr>
+            <th>Name</th>
+            <th>Address</th>
+            <th>Price</th>
+        </tr>
+
+        <tbody id="Table">
+
+        </tbody>
+    </table>
+
+
+
+
+
+
+
+
+
+
+    <script src="app.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+</body>
+
+</html>
