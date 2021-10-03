@@ -1,8 +1,15 @@
-
-
 * {
-    font-family: 'Poppins';
+  font-family: "Poppins";
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-
-
+body {
+  background-color: aqua;
+}
+h1 {
+  font-weight: 200;  
+  align-items: center;
+  margin: 0 auto;
+}
