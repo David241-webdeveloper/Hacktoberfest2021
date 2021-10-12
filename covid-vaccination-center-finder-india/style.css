@@ -1,15 +1,71 @@
 * {
-  font-family: "Poppins";
+  /* font-family: "Poppins"; */
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
-
+html {
+  font-family: "Montserrat", sans-serif;
+}
 body {
-  background-color: aqua;
+  background: #eee;
+  padding: 0 16px;
+
+  background-image: url("https://www.transparenttextures.com/patterns/brick-wall.png");
+  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 }
-h1 {
-  font-weight: 200;  
-  align-items: center;
-  margin: 0 auto;
+
+.header {
+  background-color: #f5ba13;
+  margin: auto -16px;
+  margin-bottom: 20px;
+  padding: 16px 32px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
 }
+
+.header h1 {
+  color: #fff;
+  font-family: "McLaren", cursive;
+  font-weight: 200;
+}
+
+.content {
+  position: relative;
+  width: 500px;
+  margin: 30px auto 20px auto;
+  background: #fff;
+  padding: 15px;
+  border-radius: 7px;
+  box-shadow: 0 1px 5px rgb(138, 137, 137);
+}
+.content label,
+.content input {
+  border: none;
+  padding: 20px;
+  font-size: 1.2em;
+  font-family: inherit;
+}
+.content button {
+  position: absolute;
+  right: 18px;
+  bottom: -18px;
+  background: #f5ba13;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  outline: none;
+}
+
+/* footer {
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+}
+
+footer p {
+  color: #ccc;
+} */
